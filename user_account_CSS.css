@@ -1,0 +1,147 @@
+header{
+	background-color: black;
+	top: 0;
+}
+
+
+.heading{
+	font-size: 30px;
+	font-variant:small-caps;
+	color: white;
+	padding: 12px 0 0 0 ;
+}
+
+
+.icon{
+	text-align: right;
+}
+
+
+.home-icon{
+	background-color:black;
+	color: white;
+	padding:18px 12px;
+	border: none;
+	cursor: pointer;
+	font-size: 25px;
+}
+
+
+.home-icon:hover{
+	background-color: gray;
+}
+
+
+.bar-icon {
+	background-color: rgb(0,0,0);
+	color: white;
+	padding:18px 12px;
+	border: none;
+	cursor: pointer;
+	font-size: 25px;
+}
+
+
+.bar-icon:hover{
+	background-color: gray;
+}
+
+
+a{
+	text-decoration:none;
+	color: black;
+}
+
+
+a:hover{
+	text-decoration:none;
+	color: black;
+}
+
+
+.dropdown {
+	position: relative;
+	display: inline;
+	text-align: left;
+}
+
+
+.bar-content {
+	display: none;
+	position: absolute;
+	background-color:  gainsboro;
+	min-width: 400%;
+	z-index: 1;
+}
+
+
+.bar-content a {
+	color: black;
+	font-size:20px;
+	padding: 10% 3%;
+	display: block;
+}
+
+
+.bar-content a:hover {
+	background-color: gray;
+}
+
+
+.dropdown:hover .bar-content {
+	display: block;
+}
+
+
+h1{
+    margin: 10% auto 1px;
+    text-align: center;
+}
+
+
+.form{
+    border-radius: 5%;
+    width: 350px;
+    height: auto;
+    border:3px solid black;
+    margin: 10px auto;
+    background-color: gray;
+    color:black;
+    margin-bottom:25px;
+    padding: 10px;
+    font-size: 110%;
+}
+
+
+.form label{
+    font-weight: 800;
+}
+
+
+.form span{
+    font-weight: 800;
+}
+
+
+.form a{
+    font-weight:800;
+}
+
+
+input, button{
+    font-size: medium;
+    border: 2px solid black;
+}
+
+
+footer{
+    margin: 18% 0px -10px 0px;
+}
+
+
+footer p{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 150%;
+}

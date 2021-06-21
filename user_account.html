@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <title>Log in</title>
+        <link rel="stylesheet" href="user_account_CSS.css">
+    </head>
+
+    <body>
+
+        <header>
+
+            <div class="container-fluid" >
+
+                <div class="col-sm-4 heading" >
+                    <b>Sparks Bank</b>
+                </div>
+                
+                <div class="col-sm-2 col-sm-offset-6 icon">
+
+                    <span class="dropdown">
+                        <button class="bar-icon" type ="button"><i class="fa fa-bars"></i></button>
+
+                        <div class="bar-content">
+                            <a href="user_account.html">User Accounts</a>
+
+                            <a href="#" onclick="login1();">Money Transfer</a>
+
+                            <a href="#" onclick="login2();">Transaction History</a>
+                        </div>
+
+                    </span>
+
+                    <button class="home-icon" type="button" ><a href="index.html"><i class="fa fa-home" style="color: white;"></i></a></button>
+                </div>
+
+            </div>
+        
+        </header>
+
+        <h1>Log in</h1>
+
+        <div class="form">
+
+            <label >User Name:</label>
+            <input type="text" id="user_name" name="uname" required/><br><br>
+                
+            <label >Password:</label>
+            <input type="password" name="password" value="" required/><br><br>
+
+            <button onclick="loggedin();">Submit</button><br><br>
+
+        </div>
+
+        <footer>
+            <p>Contact us on: 9876543210<br>
+            COPYRIGHT @ 2021</p>
+        </footer>
+
+        <script src="user_account_JS.js"></script>
+
+    </body>
+</html>

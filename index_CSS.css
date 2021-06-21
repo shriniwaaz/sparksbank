@@ -1,0 +1,148 @@
+header{
+	background-color: black;
+	top: 0;
+}
+
+
+.heading{
+	font-size: 30px;
+	font-variant:small-caps;
+	color: white;
+	padding: 12px 0 0 0 ;
+}
+
+
+.icon{
+	text-align: right;
+}
+
+
+.home-icon{
+	background-color:black;
+	color: white;
+	padding:18px 12px;
+	border: none;
+	cursor: pointer;
+	font-size: 25px;
+}
+
+
+.home-icon:hover{
+	background-color: gray;
+}
+
+
+.bar-icon {
+	background-color: rgb(0,0,0);
+	color: white;
+	padding:18px 12px;
+	border: none;
+	cursor: pointer;
+	font-size: 25px;
+}
+
+
+.bar-icon:hover{
+	background-color: gray;
+}
+
+
+a{
+	text-decoration:none;
+	color: black;
+}
+
+
+a:hover{
+	text-decoration:none;
+	color: black;
+}
+
+
+.dropdown {
+	position: relative;
+	display: inline;
+	text-align: left;
+}
+
+
+.bar-content {
+	display: none;
+	position: absolute;
+	background-color:  gainsboro;
+	min-width: 400%;
+	z-index: 1;
+}
+
+
+.bar-content a {
+	color: black;
+	font-size:20px;
+	padding: 10% 3%;
+	display: block;
+}
+
+
+.bar-content a:hover {
+	background-color: gray;
+}
+
+
+.dropdown:hover .bar-content {
+	display: block;
+}
+
+
+section{
+    margin: auto;
+    width: 90%;
+}
+
+
+.fir-line{
+	font-size: 400%;
+	font-variant: small-caps;
+	font-weight: bolder;
+}
+
+
+.sec-line{
+	font-size: 300%;
+	font-variant: small-caps;
+	font-weight: bolder;
+}
+
+
+
+.right img{
+    width: 76%;
+}
+
+
+footer{
+    margin: 0px 0px -10px 0px;
+}
+
+
+footer p{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 150%;
+}
+
+
+@media screen and (min-width:950px){
+	.left{
+		width:45%;
+		float: left;
+		margin: 2%;
+	}
+    .right{
+        width:45%;
+		float: none;
+		margin: 2%;
+		display: inline-block;
+        text-align: right;
+    }
+}
